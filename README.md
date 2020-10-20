@@ -5,7 +5,7 @@
     <img width="250" height="250" src="https://i.ibb.co/1mkqMvr/logo.png">
   </a>
 
-## What is this
+## What is this?
 You.py is an open-source project, run by you, where you can add anything you want in python. You could add a calculator. You could make a music player. You can add anything to this project.
 
 ## Moderation
