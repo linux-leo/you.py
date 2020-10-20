@@ -1,2 +1,3 @@
 # you.py
-A project powered by you with infinite possibilities.
+A project run by you. Add what you want. Remove what you want. Use common sense.
+# you.py
