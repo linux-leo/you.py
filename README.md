@@ -2,7 +2,7 @@
 
 <div align="center">
   <a href="https://github.com/webpack/webpack">
-    <img width="200" height="200" src="https://i.ibb.co/1mkqMvr/logo.png">
+    <img width="250" height="250" src="https://i.ibb.co/1mkqMvr/logo.png">
   </a>
 
 ## What is this?
