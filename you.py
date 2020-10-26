@@ -1,5 +1,5 @@
 # The main file of you.py!
-import time, os, sys
+import time, os
 App = 1
 while App != 2:
     print('Welcome to you.py, select an app from the list below')
