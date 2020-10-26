@@ -11,8 +11,8 @@ while App != 2:
         columns, rows = os.get_terminal_size(0)
         spacer = '{:^' + str(columns) + '}'
         countdownlength = input("Enter the Number to countdown from: ")
+        displaymode = input("Do you want to use figlet for displaying the countdown? y/N ")
         unixtimestamp = int(time.time()) + int(countdownlength)
-        displaymode = input("Do you want to use figlet for displaying the countdown? y/N")
         while countdown != 0:
             countdown = unixtimestamp-int(time.time())
             if displaymode == "y":
