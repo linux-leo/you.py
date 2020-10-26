@@ -8,7 +8,7 @@ App = int(App)
 if App == 1:
     countdown = 1
     columns, rows = os.get_terminal_size(0)
-    spacer = '{:^' + str(columns) + '}' 
+    spacer = '{:^' + str(columns) + '}'
     countdownlength = input("Enter the Number to countdown from: ")
     unixtimestamp = int(time.time()) + int(countdownlength)
     displaymode = input("Do you want to use figlet for displaying the countdown? y/N")
