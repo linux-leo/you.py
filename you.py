@@ -5,8 +5,7 @@ while App != 2:
     print('Welcome to you.py, select an app from the list below')
     print('1 Countdown')
     print('2 exit')
-    App = input()
-    App = int(App)
+    App = int(input())
     if App == 1:
         countdown = 1
         columns, rows = os.get_terminal_size(0)
