@@ -1,11 +1,17 @@
 # The main file of you.py!
 import time, os
+global App
 App = 1
+def ErrorHandle(x):
+    try:
+        return int(x)
+    except ValueError:
+        ErrorHandle(input('Please enter a number:'))
 while App != 2:
     print('Welcome to you.py, select an app from the list below')
     print('1 Countdown')
     print('2 exit')
-    App = int(input())
+    App = ErrorHandle(input())
     if App == 1:
         countdown = 1
         columns, rows = os.get_terminal_size(0)
