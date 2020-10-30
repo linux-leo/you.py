@@ -1,7 +1,6 @@
 # The main file of you.py!
 import time, os
-global App
-App = 1
+App = 0
 def ErrorHandle(x):
     try:
         return int(x)
